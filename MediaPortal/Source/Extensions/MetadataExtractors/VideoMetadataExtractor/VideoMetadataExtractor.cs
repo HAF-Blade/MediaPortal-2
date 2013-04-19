@@ -291,7 +291,7 @@ namespace MediaPortal.Extensions.MetadataExtractors.VideoMetadataExtractor
 
       int year;
       string yearCandidate = null;
-      tags = tagsToExtract[MatroskaConsts.TAG_EPISODE_YEAR] ?? tagsToExtract[MatroskaConsts.TAG_SEASON_YEAR];
+      tags = tagsToExtract[MatroskaConsts.TAG_EPISODE_YEAR];
       if (tags != null)
         yearCandidate = (tags.FirstOrDefault() ?? string.Empty).Substring(0, 4);
 

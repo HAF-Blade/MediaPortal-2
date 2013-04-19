@@ -34,7 +34,6 @@ namespace MediaPortal.Extensions.MetadataExtractors.MatroskaLib
     public const string TAG_SERIES_TITLE = "70.TITLE";
     public const string TAG_SERIES_GENRE = "70.GENRE";
     public const string TAG_SERIES_ACTORS = "70.ACTOR";
-    public const string TAG_SEASON_YEAR = "60.DATE_RELEASE";
     public const string TAG_SEASON_TITLE = "60.TITLE";
     public const string TAG_EPISODE_TITLE = "50.TITLE";
     public const string TAG_EPISODE_SUMMARY = "50.SUMMARY";
@@ -56,7 +55,6 @@ namespace MediaPortal.Extensions.MetadataExtractors.MatroskaLib
             {TAG_SERIES_GENRE, null}, // Series genre(s)
             {TAG_SERIES_ACTORS, null}, // Series actor(s)
             {TAG_SEASON_NUMBER, null}, // Season number
-            {TAG_SEASON_YEAR, null}, // Season year
             {TAG_SEASON_TITLE, null}, // Season title
             {TAG_EPISODE_TITLE, null}, // Episode title
             {TAG_EPISODE_SUMMARY, null}, // Episode summary
